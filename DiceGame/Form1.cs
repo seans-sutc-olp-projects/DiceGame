@@ -22,23 +22,5 @@ namespace DiceGame
             // 6 Dice
             generate(DiceTextBox1, 6);
         }
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void Dice2Box_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void DicetextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

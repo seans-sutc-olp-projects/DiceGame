@@ -44,8 +44,7 @@
             this.DiceTextBox1.Name = "DiceTextBox1";
             this.DiceTextBox1.ReadOnly = true;
             this.DiceTextBox1.Size = new System.Drawing.Size(100, 23);
-            this.DiceTextBox1.TabIndex = 0;
-            this.DiceTextBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.DiceTextBox1.TabIndex = 0;;
             // 
             // DiceButton1
             // 
@@ -67,7 +66,6 @@
             this.Dice1Box.TabIndex = 2;
             this.Dice1Box.TabStop = false;
             this.Dice1Box.Text = "Dice 1";
-            this.Dice1Box.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // Dice2Box
             // 
@@ -79,7 +77,6 @@
             this.Dice2Box.TabIndex = 3;
             this.Dice2Box.TabStop = false;
             this.Dice2Box.Text = "Dice 2";
-            this.Dice2Box.Enter += new System.EventHandler(this.Dice2Box_Enter);
             // 
             // DicetextBox2
             // 
@@ -88,7 +85,6 @@
             this.DicetextBox2.ReadOnly = true;
             this.DicetextBox2.Size = new System.Drawing.Size(100, 23);
             this.DicetextBox2.TabIndex = 0;
-            this.DicetextBox2.TextChanged += new System.EventHandler(this.DicetextBox2_TextChanged);
             // 
             // DiceButton2
             // 
